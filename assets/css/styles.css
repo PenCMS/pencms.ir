@@ -1,0 +1,146 @@
+::selection{
+	background: rgba(255, 200, 0, 0.4);
+}
+
+::-moz-selection {
+	background: rgba(255, 200, 0, 0.4);
+}
+@font-face {
+	font-family: 'Yekan';
+	src: url('../font/Yekan.eot');
+	src: url('../font/Yekan.eot#iefix') format('embedded-opentype'),
+	url('../font/Yekan.woff') format('woff'),
+	url('../font/Yekan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	direction: rtl;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	font-family: Yekan, Tahoma;
+}
+
+section {
+	width: 90%;
+	max-width: 700px;
+	margin: 200px auto 0;
+}
+
+header {
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+	font-size: 120px;
+	color: #95a5a6;
+}
+
+article {
+	font-size: 18px;
+	color: #bdc3c7;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 13px;
+	font-family: 'Lato', sans-serif;
+	color: #34495e;
+	font-weight: 400;
+	direction: ltr;
+}
+
+@media (max-width:750px)
+{
+	header {
+		font-size: 100px;
+	}
+	article {
+		font-size: 17px;
+	}
+}
+
+@media (max-width:500px)
+{
+	header {
+		font-size: 86px;
+	}
+	article {
+		font-size: 16px;
+	}
+}
+
+@media (max-width:400px)
+{
+	header {
+		font-size: 72px;
+	}
+	article {
+		font-size: 15px;
+	}
+}
+
+@media (max-width:330px)
+{
+	header {
+		font-size: 56px;
+	}
+	article {
+		font-size: 13px;
+	}
+}
+
+@media (max-width:275px)
+{
+	header {
+		font-size: 48px;
+	}
+	article {
+		font-size: 11px;
+	}
+}
+
+@media (max-width:225px)
+{
+	header {
+		font-size: 42px;
+	}
+	article {
+		font-size: 9px;
+	}
+}
+
+@media (max-height: 500px)
+{
+	section {
+		margin-top: 160px
+	}
+}
+
+@media (max-height: 400px)
+{
+	section {
+		margin-top: 100px
+	}
+}
+
+@media (max-height: 300px)
+{
+	section {
+		margin-top: 50px
+	}
+}
+
+@media (max-height: 220px)
+{
+	section {
+		margin-top: 20px
+	}
+	
+	footer {
+		display: none;
+	}
+}

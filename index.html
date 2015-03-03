@@ -1,0 +1,35 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+	<head>
+		<title>Pen CMS</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<section>
+			<header>
+				Pen CMS
+			</header>
+			<article>
+				درحال توسعه این مدیریت محتوا هستیم...
+			</article>
+			<footer>
+				&copy; By PenCMS Group
+			</footer>
+		</section>
+		<script>
+		  var makecss = function(name) {
+			var l = document.createElement('link'); l.rel = 'stylesheet';
+			l.href = name;
+			var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+		  };
+		  var cb = function() {
+			makecss('http://fonts.googleapis.com/css?family=Lato:100,400');
+			makecss('assets/css/styles.css');
+		  };
+		  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+			  webkitRequestAnimationFrame || msRequestAnimationFrame;
+		  if (raf) raf(cb);
+		  else window.addEventListener('load', cb);
+		</script>
+	</body>
+</html>
